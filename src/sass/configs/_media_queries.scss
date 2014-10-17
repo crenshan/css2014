@@ -1,0 +1,25 @@
+// ----------------------------------------------------
+// MEDIA QUERIES for BREAKPOINTS
+// ----------------------------------------------------
+// ex. => @media #{$variable} {};
+
+/* Large desktop (>= 1500px) */
+$media-desktop-xlg: "(min-width: #{$screen-lg-min + 300})";
+
+/* Large desktop (>= 1200px) */
+$media-desktop-lg: "(min-width: #{$screen-lg-min})";
+
+/* Desktop */
+$media-desktop: "(max-width: #{$screen-md-max})";
+
+/* Portrait tablet to landscape and desktop (<= 979px) */
+$media-tablet: "(max-width: #{$screen-sm-max})";
+
+/* Anything above portrait tablet (> 768px) */
+$media-tablet-up: "(min-width: #{$screen-sm-max - 1})";
+
+/* Landscape phone to portrait tablet (<= 767px)*/
+$media-phone: "(max-width: #{$screen-xs-max})";
+
+/* Landscape phones and down (<= 480px) */
+$media-phone-sm: "(max-width: #{$screen-xs-min})";

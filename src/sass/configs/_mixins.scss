@@ -1,0 +1,93 @@
+// ----------------------------------
+// MIXINS
+// ----------------------------------
+
+// ----------------------------------
+// MISC LAYOUT
+
+@mixin maxWidth {
+    max-width: 800px;
+}
+
+@mixin textZoom ($large, $xlarge) {
+    @media #{$media-desktop-lg} {
+        font-size: #{$large}px;
+    }
+    @media #{$media-desktop-xlg} {
+        font-size: #{$xlarge}px;
+    }
+}
+
+// ----------------------------------
+// BACKGROUND STYLES
+
+@mixin background-light {
+    background: $white;
+    color: $gray_dk2;
+}
+
+@mixin background-medium {
+    background: $coke_gray_dk;
+    color: $gray_dk2;
+}
+
+@mixin background-dark {
+    background: $gray_dk3;
+    color: $white;
+
+    .btn {
+        background: $gray_dk3;
+        color: $white;
+        border-color: $white;
+
+        &:hover,
+        &:active,
+        &:focus {
+            background: $white;
+            color: $gray_dk2;
+        }
+    }
+}
+
+@mixin transition($transition) {
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  -ms-transition: $transition;
+  -o-transition: $transition;
+}
+
+
+// ----------------------------------
+// ALIGNMENT
+
+@mixin absolute-center($abCW, $abCH){
+    width: $abCW;
+    height: $abCH;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -($abCH/2);
+    margin-left: -($abCW/2);
+}
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+@mixin horizontal-align {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+@mixin center-align {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
