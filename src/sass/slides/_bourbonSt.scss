@@ -1,0 +1,14 @@
+// ----------------------------------------------------
+// BOURBON ST
+// ----------------------------------------------------
+
+.conf_logo {
+    position: absolute;
+    right: 140px;
+    top: 148px;
+    transition: transform .2s ease-out;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}

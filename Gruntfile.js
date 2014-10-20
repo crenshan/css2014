@@ -190,12 +190,14 @@ module.exports = function(grunt) {
             dev: {
                 files: [
                     {
+                        flatten: true,
                         expand: true,
                         src: [
                             'bower_components/jquery/dist/jquery.js',
-                            'bower_components/modernizr/modernizr.js'
+                            'bower_components/modernizr/modernizr.js',
+                            'bower_components/requirejs/require.js'
                         ],
-                        dest: '<%= config.tmp %>'
+                        dest: '<%= config.tmp %>/scripts/vendor'
                     },
                     {
                         expand: true,
@@ -209,22 +211,23 @@ module.exports = function(grunt) {
                             'videos/**/*',
                             'fonts/{,*/}*.*',
                             'scripts/**/*.js',
-                            'js/**/*.js',
                             'css/**/*.css'
-                        ]
-                    },
-                    {
-                        expand: true,
-                        flatten: true,
-                        dest: '<%= config.tmp %>/scripts/vendor',
-                        src: [
-                            'bower_components/modernizr/modernizr.js'
                         ]
                     }
                 ]
             },
             prod: {
                 files: [
+                    {
+                        flatten: true,
+                        expand: true,
+                        src: [
+                            'bower_components/jquery/dist/jquery.js',
+                            'bower_components/modernizr/modernizr.js',
+                            'bower_components/requirejs/require.js'
+                        ],
+                        dest: '<%= config.dist %>/scripts/vendor'
+                    },
                     {
                         expand: true,
                         cwd: '<%= config.src %>',

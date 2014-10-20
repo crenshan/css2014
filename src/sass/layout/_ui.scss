@@ -2,3 +2,38 @@
 // UI
 // ----------------------------------------------------
 
+pre {
+    background: rgba($gray, 0.7);
+
+    &[data-lang]:after {
+        background: $white;
+        color: $blue;
+    }
+
+    b {
+        font-weight: normal;
+        .hightlight-code & { font-weight: bold; }
+    }
+}
+
+.prettyprint .pln {
+    color: $suede;
+}
+
+.note {
+    color: $gray-3;
+}
+
+
+a {
+    color: $gray;
+    border-bottom: 1px dotted $blue;
+
+    &:hover {
+        color: $white !important;
+    }
+}
+
+code {
+    color: $blue;
+}

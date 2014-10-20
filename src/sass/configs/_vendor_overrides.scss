@@ -1,0 +1,63 @@
+// ----------------------------------------------------
+// VENDOR OVERRIDES
+// ----------------------------------------------------
+
+slides > slide {
+    color: $white;
+
+    h1, h2, h3, h4, h5, h6 {
+        color: $white;
+    }
+
+    &:not(.nobackground) {
+      &:before {
+        background: image-url('SN_InteractiveDev_logo_tiny.png') no-repeat 0 50%;
+        @include background-size(40px 24px);
+        padding-left: 50px;
+        height: 24px;
+      }
+    }
+}
+
+aside.gdbar {
+  height: 120px;
+  @include border-radius(0 20px 20px 0);
+  @include background(linear-gradient(left, $black, $black) no-repeat);
+  @include background-size(0% 100%);
+
+  &.right {
+    top: ($slide-height / 2) - 106; /* 96 is height of gray icon bar */
+  }
+
+  img {
+    width: 148px;
+    height: 90px;
+    margin: 15px;
+  }
+}
+
+.title-slide {
+  hgroup {
+    bottom: 100px;
+
+    h1 {
+      line-height: 1.1;
+      color: $white;
+    }
+
+    h2 {
+      font-size: 41px;
+      color: $blue;
+      font-style: italic;
+      margin-left: 42px;
+    }
+
+    p {
+      color: $gray;
+
+      em {
+        font-style: italic;
+      }
+    }
+  }
+}

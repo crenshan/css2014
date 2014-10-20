@@ -1,0 +1,30 @@
+[
+    {
+        "content": "src/content/bourbonSt.md",
+        "background": "images/BourbonSt.jpg"
+    },
+
+    {
+        "content": "src/content/themes.md"
+    },
+
+    {
+        "content": "src/content/modular_css.md"
+    },
+
+    {
+        "content": "src/content/sass.md"
+    },
+
+    {
+        "content": "src/content/inception1.md",
+        "background": "images/totem.gif",
+        "class": "totem"
+    },
+
+    {
+        "content": "src/content/inception2.md",
+        "background": "images/totem.gif",
+        "class": "totem"
+    }
+]
