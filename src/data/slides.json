@@ -1,30 +1,32 @@
 [
+
+    { "content": "src/content/guides1.md" },
+
+
+
+
     {
         "content": "src/content/bourbonSt.md",
         "background": "images/BourbonSt.jpg"
     },
 
-    {
-        "content": "src/content/themes.md"
-    },
+    { "content": "src/content/themes.md" },
 
-    {
-        "content": "src/content/modular_css.md"
-    },
+    { "content": "src/content/modular_css1.md" },
+    { "content": "src/content/modular_css2.md" },
 
-    {
-        "content": "src/content/sass.md"
-    },
+    { "content": "src/content/sass1.md" },
+    { "content": "src/content/sass2.md" },
 
     {
         "content": "src/content/inception1.md",
         "background": "images/totem.gif",
         "class": "totem"
     },
-
     {
         "content": "src/content/inception2.md",
         "background": "images/totem.gif",
         "class": "totem"
     }
+
 ]
