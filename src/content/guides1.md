@@ -19,7 +19,7 @@
         <li>API documentation</li>
     </ul>
     <div class="build">
-        <h3>Automated Soluttions</h3>
+        <h3>Automated Solutions</h3>
         <ul class="">
             <li><a href="https://github.com/north/generator-style-prototype">Style Prototype</a></li>
             <li><a href="http://trulia.github.io/hologram/">Hologram</a></li>

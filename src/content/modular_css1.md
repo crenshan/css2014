@@ -9,9 +9,8 @@
 <article>
     <img src="images/smacss.png" alt="" class="smacss">
     <ul class="build fade">
-        <li><a href="https://smacss.com/">SMACSS (Scalable and Modular Architecture for CSS)</a></li>
-        <li><a href="https://bem.info/method/">BEM (Block, Element, Modifier)</a></li>
-        <li>Avoid IDs and element selectors</li>
+        <li><a href="https://smacss.com/">SMACSS <br>(Scalable and Modular Architecture for CSS)</a></li>
+        <li><a href="https://bem.info/method/">BEM <br>(Block, Element, Modifier)</a></li>
     </ul>
 
     <ul class="build">

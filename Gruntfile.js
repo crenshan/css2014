@@ -388,9 +388,9 @@ module.exports = function(grunt) {
         'concat:prod',
         // 'cssmin',
         'uglify:prod',
-        'usemin',
-        'modernizr',
-        'regex-replace'
+        'usemin'//,
+        // 'modernizr',
+        // 'regex-replace'
     ]);
 
     grunt.registerTask('werk', [
@@ -402,9 +402,9 @@ module.exports = function(grunt) {
         'concat:prod',
         // 'cssmin',
         'uglify:prod',
-        'usemin',
-        'modernizr',
-        'regex-replace'
+        'usemin'//,
+        // 'modernizr',
+        // 'regex-replace'
     ]);
 
     grunt.registerTask('default', [

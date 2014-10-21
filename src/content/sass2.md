@@ -17,6 +17,7 @@
         <li>Overwhelming adoption</li>
         <li>Avoid unnecessary and deep nesting</li>
         <li>Limit use of <code>@extend</code></li>
+        <li>Avoid IDs and element selectors</li>
     </ul>
     <div class="build">
         <h3 class="inception">Inception!</h3>

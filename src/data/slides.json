@@ -1,7 +1,5 @@
 [
 
-    { "content": "src/content/guides1.md" },
-
 
 
 
@@ -27,6 +25,17 @@
         "content": "src/content/inception2.md",
         "background": "images/totem.gif",
         "class": "totem"
-    }
+    },
+
+    { "content": "src/content/guides1.md" },
+
+    {
+        "content": "src/content/automation.md",
+        "background": "images/build.gif"
+    },
+
+    { "content": "src/content/testing1.md" },
+    { "content": "src/content/testing2.md" },
+    { "content": "src/content/testing3.md" }
 
 ]
