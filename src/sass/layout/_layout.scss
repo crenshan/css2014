@@ -6,7 +6,7 @@ body {
 }
 
 slides > slide.backdrop {
-    background: image-url('bg_dark.gif') no-repeat right center $suede;
+    background: image-url('bg_dark.gif') no-repeat right bottom $suede;
     background-size: contain;
 }
 

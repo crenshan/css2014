@@ -10,5 +10,7 @@
         <li>Move away from Heavy Frameworks</li>
         <li>Starter Files</li>
         <li>"Full Stack" Developers</li>
+        <li>CSS Accessibilty</li>
+        <li>Cool CSS Techniques</li>
     </ul>
 </article>
