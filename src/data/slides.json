@@ -1,8 +1,4 @@
 [
-
-
-
-
     {
         "content": "src/content/bourbonSt.md",
         "background": "images/BourbonSt.jpg"
@@ -36,6 +32,13 @@
 
     { "content": "src/content/testing1.md" },
     { "content": "src/content/testing2.md" },
-    { "content": "src/content/testing3.md" }
+    { "content": "src/content/testing3.md" },
 
+    { "content": "src/content/frameworks1.md" },
+    { "content": "src/content/frameworks2.md" },
+    { "content": "src/content/frameworks3.md" },
+    { "content": "src/content/frameworks4.md" },
+
+    { "content": "src/content/whatelse1.md" },
+    { "content": "src/content/whatelse2.md" }
 ]

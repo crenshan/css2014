@@ -372,7 +372,7 @@ module.exports = function(grunt) {
             'copy:dev',
             'compass:dev',
             'assemble:dev',
-            'modernizr',
+            // 'modernizr',
             'connect:dev',
             'watch'
         ]);

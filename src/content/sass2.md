@@ -9,7 +9,7 @@
 </aside>
 
 <hgroup>
-    <h2>SASS (Sytactically Awesome StyleSheets)</h2>
+    <h2>SASS (Syntactically Awesome StyleSheets)</h2>
 </hgroup>
 <article class="">
     <img class="sass-logo" src="images/sass.png" alt="">

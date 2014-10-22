@@ -1,0 +1,17 @@
+// ----------------------------------------------------
+// FRAMEWORKS
+// ----------------------------------------------------
+
+.frameworks {
+    text-align: center;
+
+    .sing, .susy {
+        border: none;
+        display: inline-block;
+        margin: 30px;
+        transition: transform .2s ease-out;
+
+
+        &:hover { transform: scale(1.1);}
+    }
+}
