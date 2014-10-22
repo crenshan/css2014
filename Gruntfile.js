@@ -223,7 +223,6 @@ module.exports = function(grunt) {
                         expand: true,
                         src: [
                             'bower_components/jquery/dist/jquery.js',
-                            'bower_components/modernizr/modernizr.js',
                             'bower_components/requirejs/require.js'
                         ],
                         dest: '<%= config.dist %>/scripts/vendor'
@@ -239,6 +238,8 @@ module.exports = function(grunt) {
                             'videos/**/*',
                             'fonts/{,*/}*.*',
                             'ajax/**/*.*',
+                            'scripts/**/*.*',
+                            'slide_config.js'
                         ]
                     },
                     {expand: true, cwd: '<%= config.tmp %>', src: ['images/sprites/*.png'], dest: '<%= config.dist %>'}
